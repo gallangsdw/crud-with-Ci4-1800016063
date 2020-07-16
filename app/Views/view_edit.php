@@ -27,7 +27,7 @@
             <input type="text" class="form-control" name="user_email" value="<?= $user->email; ?>">
          </div>
          <div class="form-group">
-            <input type="text" class="form-control" name="user_id" value="<?= $user->pass; ?>" readonly>
+            <input type="text" class="form-control" name="user_pass" value="<?= $user->pass; ?>" readonly>
          </div>
          <button class="btn btn-primary" type="submit">Simpan</button>
       </form>
