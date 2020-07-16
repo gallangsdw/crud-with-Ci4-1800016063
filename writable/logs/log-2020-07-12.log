@@ -1,0 +1,18 @@
+CRITICAL - 2020-07-12 01:35:08 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in /opt/lampp/htdocs/ci4App/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(914): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4App/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/ci4App/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-07-12 01:59:32 --> Trying to get property 'user_id' of non-object
+#0 /opt/lampp/htdocs/ci4App/app/Views/user_view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/ci4App/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ci4App/system/Common.php(1087): CodeIgniter\View\View->render('user_view', Array, true)
+#3 /opt/lampp/htdocs/ci4App/app/Controllers/User.php(19): view('user_view', Array)
+#4 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(914): App\Controllers\User->index()
+#5 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /opt/lampp/htdocs/ci4App/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4App/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/ci4App/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
