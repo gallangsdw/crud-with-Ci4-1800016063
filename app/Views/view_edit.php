@@ -15,7 +15,7 @@
    <div class="container">
    <div class="row">
       <div class="col-md-4 mx-auto pt-5">
-      <h1>Edit Data</h1>
+      <h2>Ubah Data</h2><br>
       <form action="/user/updateData" method="POST">
          <div class="form-group">
             <input type="text" class="form-control" name="user_id" value="<?= $user->id; ?>" readonly>
